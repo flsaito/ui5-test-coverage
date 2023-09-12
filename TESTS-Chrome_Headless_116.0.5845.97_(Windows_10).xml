@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 116.0.5845.97 (Windows 10)" package="" timestamp="2023-09-04T12:04:04" id="0" hostname="W-PE0ATT1V" tests="4" errors="0" failures="0" time="2.178">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/116.0.5845.97 Safari/537.36"/>
+  </properties>
+  <testcase name="/base/webapp/test/unit/unitTests.qunit.html main Controller I should test the main controller" time="0.001" classname="Chrome_Headless_116_0_5845_97_(Windows_10)./base/webapp/test/unit/unitTests.qunit.html main Controller"/>
+  <testcase name="/base/webapp/test/unit/unitTests.qunit.html main Controller Test match functions" time="0.001" classname="Chrome_Headless_116_0_5845_97_(Windows_10)./base/webapp/test/unit/unitTests.qunit.html main Controller"/>
+  <testcase name="/base/webapp/test/unit/unitTests.qunit.html main Controller Test match functions " time="0" classname="Chrome_Headless_116_0_5845_97_(Windows_10)./base/webapp/test/unit/unitTests.qunit.html main Controller"/>
+  <testcase name="/base/webapp/test/integration/opaTests.qunit.html Navigation Journey Should see the initial page of the app" time="2.176" classname="Chrome_Headless_116_0_5845_97_(Windows_10)./base/webapp/test/integration/opaTests.qunit.html Navigation Journey"/>
+  <system-out>
+    <![CDATA[Chrome Headless 116.0.5845.97 (Windows 10) INFO: '2023-09-04 09:04:04 [unitTests.qunit.html] Device API logging initialized - DEVICE'
+,Chrome Headless 116.0.5845.97 (Windows 10) INFO: '2023-09-04 09:04:04 [opaTests.qunit.html] Device API logging initialized - DEVICE'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.092000 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.093399 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.098699 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.098800 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.098899 Result of check function is: false -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) ERROR: '2023-09-04 09:04:05.265100 failed to load JavaScript resource: ns/ui5testcoverage/Component-preload.js -  sap.ui.ModuleSystem'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.510100 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.510300 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.510300 Result of check function is: false -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.912500 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.912699 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:05.912899 Result of check function is: false -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:06.326300 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:06.326399 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:06.326500 Result of check function is: false -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:06.742300 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:06.742399 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:06.742500 Result of check function is: false -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.156899 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.157000 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.157000 Result of check function is: true -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.162800 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.168899 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.169100 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.169300 Result of check function is: true -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.178899 Found 0 blocking out of 42 tracked timeouts -  sap.ui.test.autowaiter._timeoutWaiter#hasPending'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.179600 AutoWaiter syncpoint -  sap.ui.test.autowaiter._autoWaiter'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.180300 Found 2 controls of type 'View' in page -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.180399 Found 1 views with viewName 'ns.ui5testcoverage.view.App' -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.180399 Found view with ID 'undefined' and viewName 'ns.ui5testcoverage.view.App' -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.180500 Found control with ID 'app' and controlType 'undefined' in view 'ns.ui5testcoverage.view.App' -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.181199 1 out of 1 controls met the matchers pipeline requirements -  sap.ui.test.pipelines.MatcherPipeline'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.181300 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.186199 Found 0 blocking out of 43 tracked timeouts -  sap.ui.test.autowaiter._timeoutWaiter#hasPending'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.186500 AutoWaiter syncpoint -  sap.ui.test.autowaiter._autoWaiter'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.186800 Found 2 controls of type 'View' in page -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.186899 Found 1 views with viewName 'ns.ui5testcoverage.view.main' -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.187000 Found view with ID 'undefined' and viewName 'ns.ui5testcoverage.view.main' -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.187100 Found control with ID 'page' and controlType 'undefined' in view 'ns.ui5testcoverage.view.main' -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.187699 1 out of 1 controls met the matchers pipeline requirements -  sap.ui.test.pipelines.MatcherPipeline'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.187800 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.192800 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.197699 Executing OPA check function on controls null -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.197800 Check function is:
+function(){if(!r.started){r.started=true;e.then(function(){r.done=true},function(e){r.errorMessage="Error while waiting for promise scheduled on flow"+(e?", details: "+F(e):"")})}if(r.errorMessage){throw new Error(r.errorMessage)}else{return!!r.done}} -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.197800 Result of check function is: true -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.203800 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.209699 Execute success handler -  sap.ui.test.Opa5'
+,Chrome Headless 116.0.5845.97 (Windows 10) DEBUG: '2023-09-04 09:04:07.218899 Execute success handler -  sap.ui.test.Opa5'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
